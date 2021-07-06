@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(to right, #485563, #29323c);
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin-top: 10vh;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+label {
+    padding-right: 5px;
+}
+
+.container-keyword {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.keyword-form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-keyword>form>button {
+    margin: 5px;
+}
+
+.keyword-list {
+    margin-top: 10%;
+    word-wrap: normal;
+    width: 500px;
+    height: 250px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs>.form-group {
+    padding: 5px;
+}
+
+.wordpressForm {
+    margin-top: 10%;
+    background-color: white;
+    padding: 40px;
+}
