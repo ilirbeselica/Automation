@@ -19,7 +19,7 @@ const handleRequest = async (keyword, limit) => {
                 axios.get(returnUrl(words[i], keyword)).then(async res => {
                     const items = res.data.split(',').filter(item => item.includes('u003'));
                     items.forEach(item => {
-                        array.push(item.replace(/["/[}/)]/g, "").replace(/[\\]/g, "").replace('u003cbu003e', "").replace('u003cbu003e', "").replace('u003cbu003e', "").replace('u003cbu003e', "").replace('u003cbu003e', ""));
+                        array.push(item.replace(/["/[}/)]/g, "").replace(/[\\]/g, ""));
                     })
 
                 })
